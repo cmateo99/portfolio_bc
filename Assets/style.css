@@ -1,64 +1,146 @@
-
+body{
+    background-color: #F6F6F6;
+}
 header{
-    height:100vh;
+    height:80vh;
     width:auto;
+    
 }
 nav{
-    
-    width:15%;
-    
-    font-size: 40px;
-    
-    margin-left:40px;
-    
-    height:100vh;
-}
-.container{
     position:fixed;
-    left:0;
-    top:50%;
-    
+    width:15vw;
+    font-size: 1rem;
+    z-index:9999;
+    color: #FFFFFF;
+    height:100vh;
+    margin-right:5%;
     
 }
 nav ul {
     list-style: none;
     margin: 0;
     padding: 0;
-    transform: translateY(-50%);
+    margin-top: 30vh;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius:5%;
+    width: 9rem;
   }
-  
-nav a {
-    padding: 5px;
-    text-decoration: none;
-    color: #00ff22;
-  }
-
   nav li {
     display: inline-block;
     margin: 0 10px;
-  }
-nav a:hover{
-    color:white;
-    background-color: blueviolet;
-    transition:100ms;
     
+  } 
+nav a {
+    padding: 5px;
+    text-decoration: none;
+    color: #0074D9;
+    border-radius: 5%;
+  }
+
+  
+nav a:hover{
+    color:#FFFFFF;
+    background-color: #0074D9;
+    transition:300ms;
+    width:10rem;
 }
 .profileArea{
-    position:absolute;
     display:block;
     margin:0 auto;
     text-align:center;
     width:100%;
+    transform: translateY(40%);
+    
 }
 .profileArea img{
     height:20rem;
     width:auto;
+    border-radius:15%;
 }
 #projects{
-    height:100vh;
-    background-color:aqua;
+    height:auto;
+    color: #0074D9;
+    
+    
+}
+#projects h2{
+    text-align:center;
+    font-size:36px;
+    margin-bottom: 5vh;
 }
 #contact{
-    height:20vh;
-    background-color: antiquewhite;
+    height:auto;
+    color: #0074D9;
+    text-align:center;
+}
+.apps{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.mainApp h3{
+    text-align: center;
+}
+
+
+#refract{
+    height:30rem;
+    width:auto;
+    align-items:center;
+    margin:auto;
+}
+#mainProj{
+    height:15rem;
+    align-items: center;
+    margin:auto;
+}
+
+#proj:hover{
+    background-color: rgba(0, 0, 0, 0.2); 
+}
+h3{
+    background-color: #0074D9;
+    border-radius: 5%;
+    width:15rem;
+    text-align: center;
+    margin:auto;
+    
+}
+.box:hover{
+    color:#FFFFFF;
+}
+#proj{
+    height:10rem;
+    width:400px;
+    
+    background-size:cover;
+    background-position:center;   
+}
+#projGen{
+    height:10rem;
+    width:400px;
+    background-image: url('./pass.jpeg');
+    background-size:cover;
+    background-position:center;
+}
+#projCal{
+    height:10rem;
+    width:400px;
+    background-image: url('./calendar.jpeg');
+    background-size:cover;
+    background-position:center;
+}
+#projCal{
+    height:10rem;
+    width:400px;
+    background-image: url('./calendar.jpeg');
+    background-size:cover;
+    background-position:center;
+}
+.contact{
+  height:200px;  
 }
