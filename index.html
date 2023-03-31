@@ -20,7 +20,7 @@
         </nav>
     <div class="profileArea">
         <img src="./Assets/profile pic.png" alt="Picture of myself" class="pfp">
-        <h1>
+        <h1 class="title">
             Connor Mateo
         </h1>
             <p>Hello, I am Connor and I am training to become a Full Stack developer!</p>
@@ -31,16 +31,18 @@
             <h2 class="title has-text-centered">Projects</h2>
             <div class="columns is-centered ">
                 <div class="column has-text-centered">
-                    <div class="box " style="background-image: url('./Assets/proj1.jpeg');"id="mainProj">
+                    <a href="https://cmateo99.github.io/css-demo-site/" target="_blank">
+                    <div class="box" style="background-image: url('./Assets/proj1.jpeg');"id="mainProj">
                         <figure class="image is-centered">
                             <h3 class="is-size-4">Code Refractor</h3>
                             
                         </figure>
                     </div>
+                    </a>
                 </div>
             </div>
-            <div class="columns is-centered">
-                <div class="column has-text-centered">
+            <div class="columns is-centered is-mobile">
+                <div class="column has-text-centered" id="subProj">
                     <div class="box" style="background-image: url('./Assets/pass.jpeg');" id="proj">
                         <figure class="image is-centered">
                             <h3 class=" is-size-4">Password Generator</h3>
@@ -57,8 +59,8 @@
                         <h3 class=" is-size-4">Cineman</h3>
                     </div>
                 </div>
-                <div class="column has-text-centered">
-                    <div class="box 2" id="proj" style="background-image: url('./Assets/calendar.jpeg');">
+                <div class="column has-text-centered" id="subProj">
+                    <div class="box 2" style="background-image: url('./Assets/calendar.jpeg');" id="proj">
                         <h3 class=" is-size-4">Work Day Scheduler</h3>
                         
                     </div>
@@ -73,10 +75,22 @@
             </div>
         </div>
     </main>
-    <footer class="container has-text-centered py-6">
+    <footer class="footer has-text-centered mt-4" id="contact">
        <h4 class="title">
         Contact Me!
        </h4>
+       <div class="container has-text-centered">
+            <ul>
+                <li>
+                    Phone: (000)000-0000
+                </li>
+                <li>
+                    Email: connormateo@gmail.com
+                </li>
+            </ul>
+        
+
+       </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bulma@0.9.3/js/bulma.min.js"></script>
 </body>
